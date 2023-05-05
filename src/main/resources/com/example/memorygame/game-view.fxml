@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="762.0" prefWidth="498.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.memorygame.MemoryGameController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <FlowPane fx:id="imagesFlowPane" hgap="20.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="745.0" vgap="20.0">
+            <children>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@./imgStarWars/1.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true" x="2.0">
+                            <image>
+                                <Image url="@./imgStarWars/2.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="95.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/4.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/12.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/10.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/7.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/13.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/9.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/4.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/11.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/3.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/10.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/5.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/8.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </ImageView>
+                    </children>
+                    <cursor>
+                        <Cursor fx:constant="OPEN_HAND" />
+                    </cursor>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/5.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/13.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/9.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/12.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/11.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/6.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@./imgStarWars/1.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/2.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/8.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+                <Group onMouseClicked="#retournerCarte">
+                    <children>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imgStarWars/7.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@sw-verso.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Group>
+
+            </children>
+        </FlowPane>
+        <Label fx:id="labelCorrect" text="Correct : " />
+    </children>
+</VBox>
