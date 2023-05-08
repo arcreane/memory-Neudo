@@ -104,7 +104,7 @@
                     <children>
                         <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@imgStarWars/13.png" />
+                                <Image url="@imgStarWars/6.png" />
                             </image>
                         </ImageView>
                         <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
@@ -236,7 +236,7 @@
                     <children>
                         <ImageView fitHeight="99.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@imgStarWars/13.png" />
+                                <Image url="@imgStarWars/3.png" />
                             </image>
                         </ImageView>
                         <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
